@@ -4,7 +4,7 @@ InventoryApp is an Android application that tracks inventory of a retail store i
 ## Clone and Build App
 - Open shell in your workspace directory
 ```bash
-$ git clone https://github.com/najens/InventoryApp.git <app name>
+$ git clone https://github.com/najens/InventoryApp.git <AppName>
 ```
 - Open app directory in Android Studio
 - Run app
