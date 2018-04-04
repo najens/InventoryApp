@@ -1,0 +1,85 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App name -->
+    <string name="app_name">InventoryApp</string>
+
+    <!-- Empty title message -->
+    <string name="empty_title">No inventory available at this time.</string>
+
+    <!-- Empty subtitle message -->
+    <string name="empty_subtitle">Please click on the button below to add items.</string>
+
+    <!-- Categories for details activity -->
+    <string name="item">Item</string>
+    <string name="id">ID</string>
+    <string name="image">Image</string>
+    <string name="price">Price ($)</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier">Supplier</string>
+    <string name="supplier_email">Supplier Email</string>
+
+    <!-- Text for button on details activity -->
+    <string name="order">Order</string>
+    <string name="save">Save</string>
+
+    <!-- Details activity title -->
+    <string name="app_label">Inventory</string>
+    <string name="title_new_item">Add an Item</string>
+    <string name="title_details">Item Details</string>
+    <string name="title_edit_item">Edit Item</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current item [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current item was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current item has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <!-- Toast message in editor when new item has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_successful">Item saved</string>
+
+    <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_failed">Error with saving item</string>
+
+    <!-- Toast message in editor when new item has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_successful">Item updated</string>
+
+    <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_failed">Error with updating item</string>
+
+    <!-- Email subject. [CHAR LIMIT=40] -->
+    <string name="email_subject">Product order for <xliff:g id="name" example="bananas">%s</xliff:g></string>
+
+    <!-- Supplier for the order summary. [CHAR LIMIT=40] -->
+    <string name="order_summary_supplier">Supplier: <xliff:g id="supplier" example="tropical foods">%s</xliff:g></string>
+
+    <!-- Purchase item for the order summary. [CHAR LIMIT=40] -->
+    <string name="order_summary_item">Item: <xliff:g id="item" example="bananas">%s</xliff:g></string>
+
+    <!-- Purchase quantity for the order summary. [CHAR LIMIT=40] -->
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="5">%s</xliff:g></string>
+
+    <!-- Purchase price for the order summary. [CHAR LIMIT=40] -->
+    <string name="order_summary_price">Price: <xliff:g id="price" example="5">%s</xliff:g></string>
+
+    <!-- Purchase thank you message for the order summary. [CHAR LIMIT=30] -->
+    <string name="thank_you">Thank You</string>
+
+</resources>
